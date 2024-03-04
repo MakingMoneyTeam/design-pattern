@@ -1,9 +1,10 @@
 package org.designpattern.creational.abstract_factory;
 
 
-import org.designpattern.creational.abstract_factory.factory.GUIFactory;
-import org.designpattern.creational.abstract_factory.factory.MacOSFactory;
-import org.designpattern.creational.abstract_factory.factory.WindowFactory;
+import org.designpattern.creational.abstract_factory.example_1.Application;
+import org.designpattern.creational.abstract_factory.example_1.factory.GUIFactory;
+import org.designpattern.creational.abstract_factory.example_1.factory.MacOSFactory;
+import org.designpattern.creational.abstract_factory.example_1.factory.WindowFactory;
 
 public class Main {
     private static Application application;

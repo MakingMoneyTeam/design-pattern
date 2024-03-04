@@ -1,8 +1,8 @@
 package org.designpattern.creational.factory_method;
 
-import org.designpattern.creational.factory_method.creator.Dialog;
-import org.designpattern.creational.factory_method.creator.MacOSDialog;
-import org.designpattern.creational.factory_method.creator.WindowDialog;
+import org.designpattern.creational.factory_method.example_1.creator.Dialog;
+import org.designpattern.creational.factory_method.example_1.creator.MacOSDialog;
+import org.designpattern.creational.factory_method.example_1.creator.WindowDialog;
 
 public class Main {
     private static Dialog dialog;

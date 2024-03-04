@@ -1,6 +1,6 @@
-package org.designpattern.creational.abstract_factory.product.button;
+package org.designpattern.creational.factory_method.example_1.product;
 
-public class WindowButton implements Button {
+public class WindowButton implements Button{
     @Override
     public void render() {
         System.out.println("Render WindowButton");

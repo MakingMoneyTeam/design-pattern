@@ -1,6 +1,6 @@
-package org.designpattern.creational.factory_method.product;
+package org.designpattern.creational.abstract_factory.example_1.product.button;
 
-public class MacOSButton implements Button{
+public class MacOSButton implements Button {
     @Override
     public void render() {
         System.out.println("Render MacOSButton");

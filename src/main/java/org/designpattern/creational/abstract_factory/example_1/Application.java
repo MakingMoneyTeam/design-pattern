@@ -1,8 +1,8 @@
-package org.designpattern.creational.abstract_factory;
+package org.designpattern.creational.abstract_factory.example_1;
 
-import org.designpattern.creational.abstract_factory.factory.GUIFactory;
-import org.designpattern.creational.abstract_factory.product.checkbox.Checkbox;
-import org.designpattern.creational.factory_method.product.Button;
+import org.designpattern.creational.abstract_factory.example_1.factory.GUIFactory;
+import org.designpattern.creational.abstract_factory.example_1.product.checkbox.Checkbox;
+import org.designpattern.creational.factory_method.example_1.product.Button;
 
 public class Application {
     private final Button button;
