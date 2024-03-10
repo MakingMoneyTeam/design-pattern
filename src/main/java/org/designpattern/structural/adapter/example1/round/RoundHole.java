@@ -1,4 +1,4 @@
-package org.designpattern.structural.adapter.round;
+package org.designpattern.structural.adapter.example1.round;
 
 public class RoundHole {
     private final double radius;

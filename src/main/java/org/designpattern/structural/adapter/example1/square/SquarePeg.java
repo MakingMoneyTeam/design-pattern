@@ -1,4 +1,4 @@
-package org.designpattern.structural.adapter.square;
+package org.designpattern.structural.adapter.example1.square;
 
 public class SquarePeg {
     private final double width;
