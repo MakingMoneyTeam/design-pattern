@@ -1,9 +1,9 @@
-package org.designpattern.structural.adapter;
+package org.designpattern.structural.adapter.example1;
 
-import org.designpattern.structural.adapter.adapter.SquarePegAdapter;
-import org.designpattern.structural.adapter.round.RoundHole;
-import org.designpattern.structural.adapter.round.RoundPeg;
-import org.designpattern.structural.adapter.square.SquarePeg;
+import org.designpattern.structural.adapter.example1.adapter.SquarePegAdapter;
+import org.designpattern.structural.adapter.example1.round.RoundHole;
+import org.designpattern.structural.adapter.example1.round.RoundPeg;
+import org.designpattern.structural.adapter.example1.square.SquarePeg;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +15,6 @@ public class Main {
 
         SquarePeg smallSqPeg = new SquarePeg(2);
         SquarePeg largeSqPeg = new SquarePeg(20);
-        // hole.fits(smallSqPeg); // Won't compile.
 
         SquarePegAdapter smallSqPegAdapter = new SquarePegAdapter(smallSqPeg);
         SquarePegAdapter largeSqPegAdapter = new SquarePegAdapter(largeSqPeg);
