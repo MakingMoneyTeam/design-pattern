@@ -1,5 +1,6 @@
 package org.designpattern.structural.decorator;
 
+import org.designpattern.structural.decorator.employee.EmployeeComponent;
 import org.designpattern.structural.decorator.employee.EmployeeDecorator;
 
 public class TeamLeader extends EmployeeDecorator {
