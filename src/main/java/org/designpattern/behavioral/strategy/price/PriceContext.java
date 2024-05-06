@@ -3,15 +3,15 @@ package org.designpattern.behavioral.strategy.price;
 public class PriceContext {
     private PriceStrategy strategy;
 
-    public PriceContext(PriceStrategy pristrategyce) {
+    public PriceContext(PriceStrategy strategy) {
         this.strategy = strategy;
     }
 
-    public setStrategy(PriceStrategy strategy) {
-        this.price = strategy
+    public void setStrategy(PriceStrategy strategy) {
+        this.strategy = strategy;
     }
 
     public double calculatePrice(double price) {
-        return this.price.calculatePrice(price);
+        return this.strategy.calculatePrice(price);
     }
 }
